@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", serif;
+    background-color: #a7f3d0;
+  }
+
+  input, textarea {
+    border-bottom: solid 1px;
+    font-size: 13px;
+  }
+
+  p, label {
+    opacity: 40%;
+    font-size: 13px;
+    font-weight: bold;
+  }
